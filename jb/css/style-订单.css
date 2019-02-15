@@ -1,0 +1,51 @@
+*,:after,:before{margin: 0;padding: 0;
+    box-sizing: border-box;}
+ul{list-style: none;  }
+a{color:inherit;text-decoration: none;}
+input,button{outline: none}
+html{
+    font-size: 12px;font-family:"Î¢ÈíÑÅºÚ"}
+body{background: #eeeeee;min-width: 320px;}
+@media(min-width: 375px){html{font-size: 14px}}
+@media(min-width: 640px){html{font-size: 20px}}
+
+header {height: 4.17rem;padding-left: 1.25rem;padding-right: 1.25rem;
+    line-height: 4.17rem;background: white;font-size: 1.4rem;
+    text-align:center;color:#999;position: relative}
+header i{color: red;float: left;margin-top: 17px}
+header h3{height: inherit;line-height: inherit;
+    left: 1.25rem;top:0;color: #666666;font-weight: normal;margin:auto}
+
+ul{border: 1px solid #dddddd;margin: 15px 20px;background: white
+    ;border-radius: 5px;}
+ul .border1  b{border:1px solid red;margin-right: 7px;margin-left: 7px;}
+ul .border1  em{font-size: 16px;font-style: normal;}
+ul .border1  i{font-style: normal;font-size: 13px;color: #999999;
+           float: right;margin-right: 8px;}
+ul .border1  span{color: red;font-size: 18px;float: right;
+       margin-right: 5px}
+ul .border1{border-bottom: 1px solid #dddddd;line-height:50px}
+ul .border2 {height: 46px;line-height: 46px}
+ul .border2 img {float: left;margin-left: 7px;
+    margin-top: 8px;  width: 23px;}
+ul .border2 span{border-bottom: 1px solid #d1d1d1;
+       margin-left: 15px;float: left;width:250px;
+       font-size: 14px;}
+ul .border3 {height: 46px;line-height: 46px;
+    border-bottom: 1px solid #d1d1d1;}
+ul .border3 img {float: left;margin-left: 7px;
+    margin-top: 8px;  width: 23px;}
+ul .border3 span{
+    margin-left: 15px;padding-left: 10px;float: left;
+    font-size: 14px;}
+.border4 {content:"";display: block;clear: left}
+ul .border4 {height: 55px;line-height: 35px}
+ul .border4 span {float: left;margin-left: 7px;font-size: 16px;
+      margin-top:8px;color: red  }
+ul .border4 a{border:1px solid #d1d1d1;
+    float: right;  font-size: 14px;padding:0 8px;
+    border-radius: 5px;margin-top:9px;}
+ul .border4 .pay{background: red;color: white;
+      margin-left: 6px;margin-right: 6px}
+ul .border4 .pay1{
+    margin-left: 6px;margin-right: 6px}

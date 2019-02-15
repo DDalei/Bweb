@@ -1,0 +1,51 @@
+/*清除默认样式*/
+*,:after,:before{margin: 0;padding: 0;
+   box-sizing: border-box;/*移动端一般用IE盒子模型呈现*/  }
+ul{list-style: none;  }
+a{color:inherit;text-decoration: none;}
+input,button{outline: none}
+/*设置默认的样式*/
+html{
+   font-size: 12px;font-family:"微软雅黑"}
+body{background: #eeeeee;min-width: 320px;}
+/*移动端最小宽度是320px；
+如果尺寸比这个还小就设置宽度为320px*/
+/*不同手机上字体大小不同的设置方法*/
+/*就近选择，70为最近,以上面的12px为基准*/
+@media(min-width: 375px){html{font-size: 14px}}
+@media(min-width: 640px){html{font-size: 20px}}
+/*@media(min-width: 768px){html{font-size: 70px}}*/
+
+header {height: 4.17rem;padding-left: 1.25rem;padding-right: 1.25rem;
+      line-height: 4.17rem;background: white;font-size: 1.4rem;
+      text-align:center;color:#999;position: relative}
+header a{position: absolute;height: inherit;line-height: inherit;
+       left: 1.25rem;top:0;color: red}
+.banner img{width: 100%}
+.menu{background: white;margin: 0.83rem 1.25rem ;
+    border:1px solid #d1d1d1;
+   border-radius: 10px;padding: 0.33rem 0}
+.menu:after{content:"";display: block;clear: left}
+.menu li{width: 25%;float: left;text-align:center;padding: 0.83rem 0}
+.menu li img{max-width: 60%/*最大不能超过60%*/;padding: 0.67rem 0}
+.menu li p{font-size: 1rem;}
+.register{margin: 0.83rem 1.25rem ;
+    border:1px solid #d1d1d1;
+    border-radius: 5px;
+    /*容器是圆角，但图片四个角会溢出，加上溢出隐藏就可以了*/
+    overflow: hidden}
+.register img{width: 100%;
+    /*加上图片后，图片底部会有一个空隙，转为块级就没空隙了*/
+    display: block}
+.menu_link{margin: 0.83rem 1.25rem ;
+    border:1px solid #d1d1d1;
+    border-radius: 5px;position: relative}
+.menu_link:before{content:"";position: absolute;
+      height: 100%;width: 0.08rem;background:#d1d1d1 ;
+      right: 0;left:0;margin: auto;top:0}
+/*清除浮动，因为menu_link没有给高度*/
+.menu_link:after{content:"";display: block;clear: left}
+.menu_link>a{width: 50%;float: left}
+.menu_link>a i{float: left;padding: 0.83rem 0.58rem 0.83rem 0.83rem}
+.menu_link>a h3{font-size: 1rem;color: #666;font-weight: normal}
+.menu_link>a p{font-size: 0.8rem;}

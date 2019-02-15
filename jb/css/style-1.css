@@ -1,0 +1,84 @@
+*,:after,:before{margin: 0;padding: 0;
+    box-sizing: border-box;}
+ul{list-style: none;  }
+a{color:inherit;text-decoration: none;}
+input,button{outline: none}
+html{
+    font-size: 12px;font-family:"微软雅黑"}
+body{background: #eeeeee;min-width: 320px;}
+@media(min-width: 375px){html{font-size: 14px}}
+@media(min-width: 640px){html{font-size: 20px}}
+
+header {height: 4.17rem;padding-left: 1.25rem;padding-right: 1.25rem;
+    line-height: 4.17rem;background: white;font-size: 1.4rem;
+    text-align:center;color:#999;position: relative}
+header i{color: red;float: left;margin-top: 17px}
+header a{position: absolute;height: inherit;line-height: inherit;
+    left: 1.25rem;top:0;color: red}
+.man{background: #ff2c4c;height: 190px;margin:0 auto;
+    padding: 20px 0 0 0;}
+.man img {border-radius: 50px;
+    width: 120px;  height: 120px;  margin: 0 auto;
+    display: block;}
+.man p{text-align: center;
+    line-height: 50px;}
+.man a{background: #d82640;
+    color: #fff;font-size: 14px;
+    border-radius: 20px;
+    padding: 5px 20px;border-radius: 20px;}
+.man i{color: white}
+ul{height: 72px;width: 94%;
+    margin: 10px 3%;
+    overflow: hidden;/*清除下面的浮动，不然ul不认识li*/
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background: #fff;  }
+ul li{height: 50px;
+    width: 33%;
+    float: left;
+    border-right: 1px solid #ddd;
+    text-align: center;
+    margin: 10px 0;}
+ul li h2{color: red;font-weight: normal;margin-bottom: 5px}
+ul .box3{border-right: none}
+.box{height: 113px;width: 94%;
+    margin: 10px 3%;padding-left: 5px;padding-right: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background: #fff;  }
+.box .box1{height: 56px;width: 100%;
+    border-bottom: 1px solid #ddd;line-height: 56px;}
+.box .box2{height: 56px;width: 100%;line-height: 56px;
+ }
+.box img{width: 30px;height: 31px;float: left;margin-top:10px;
+    margin-right: 7px}
+.box a{display: block;
+    margin: auto}
+
+.border{height: 169px;width: 94%;
+    margin: 10px 3%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background: #fff;  }
+.border .box1{height: 56px;width: 100%;line-height: 56px;
+    border-bottom: 1px solid #ddd;margin: auto 0;
+    padding-left: 5px;padding-right: 5px;}
+.border .box2{height: 56px;width: 100%;line-height: 56px;
+    border-bottom: 1px solid #ddd; padding-left: 5px;padding-right: 5px;;}
+.border .box3{height: 56px;width: 100%;line-height: 56px;
+    padding-left: 5px;padding-right: 5px;}
+.border img{width: 30px;height: 31px;float: left;margin-top:10px;
+    margin-right: 7px}
+.border a{display: block; margin: auto
+    }
+.border .box3 span{float: right;margin-right: 20px}
+.border .box1 i{float: right;margin-top: 23px;margin-right: 10px}
+.border .box2 i{float: right;margin-top: 23px;margin-right: 10px}
+.box .box1 i{float: right;margin-top: 23px;margin-right: 10px}
+.box .box2 i{float: right;margin-top: 23px;margin-right: 10px}
+.border .box3 i{float: right;margin-top: 23px;margin-right: 10px}
+
+
+
+
+
